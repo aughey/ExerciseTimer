@@ -18,11 +18,11 @@ function PlayWave({ file, play }: { file: string, play: boolean }) {
 
 function PlayCount({ count }: { count: number }) {
   const numbers: { [key: number]: string } = {
-    5: "/five.wav",
-    4: "/four.wav",
-    3: "/three.wav",
-    2: "/two.wav",
-    1: "/one.wav"
+    5: "five.wav",
+    4: "four.wav",
+    3: "three.wav",
+    2: "two.wav",
+    1: "one.wav"
   };
 
 
