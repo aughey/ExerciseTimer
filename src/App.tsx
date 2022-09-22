@@ -11,8 +11,10 @@ function PlayWave({ file, play }: { file: string, play: boolean }) {
     }
   }, [play]);
 
+  const fullurl = process.env.PUBLIC_URL + '/' + file;
+
   return (<div>
-    <audio ref={audioref} src={file} preload="true" />
+    <audio ref={audioref} src={fullurl} preload="true" />
   </div>);
 }
 
@@ -28,7 +30,7 @@ function PlayCount({ count }: { count: number }) {
 
   return (
     <div>
-      {Object.keys(numbers).map(n => parseInt(n)).map((n, i) => (<PlayWave file={numbers[n]} play={count === n} />))}
+      {Object.keys(numbers).map(n => parseInt(n)).map((n) => (<PlayWave key={n} file={numbers[n]} play={count === n} />))}
     </div>
   )
 
@@ -89,8 +91,12 @@ function App() {
   var [running, setRunning] = useState(false);
 
   useEffect(() => {
-    if(running) {
-    setActions(code.split(" ").map((x) => parseInt(x)));
+    if (running) {
+      setActions(code.split(" ")
+        .map((x) => parseInt(x))
+        .filter(x => !isNaN(x))
+        .filter(x => x > 0)
+      )
     } else {
       setActions([]);
     }
