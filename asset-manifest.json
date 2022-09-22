@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/exercisetimer-gh-pages/static/css/main.723f0e02.css",
+    "main.js": "/exercisetimer-gh-pages/static/js/main.ee36f5d4.js",
+    "static/js/787.f4de1ac9.chunk.js": "/exercisetimer-gh-pages/static/js/787.f4de1ac9.chunk.js",
+    "index.html": "/exercisetimer-gh-pages/index.html",
+    "main.723f0e02.css.map": "/exercisetimer-gh-pages/static/css/main.723f0e02.css.map",
+    "main.ee36f5d4.js.map": "/exercisetimer-gh-pages/static/js/main.ee36f5d4.js.map",
+    "787.f4de1ac9.chunk.js.map": "/exercisetimer-gh-pages/static/js/787.f4de1ac9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.723f0e02.css",
+    "static/js/main.ee36f5d4.js"
+  ]
+}
