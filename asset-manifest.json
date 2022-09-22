@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/exercise-timer-gh-pages/static/css/main.723f0e02.css",
-    "main.js": "/exercise-timer-gh-pages/static/js/main.70267700.js",
-    "static/js/787.f4de1ac9.chunk.js": "/exercise-timer-gh-pages/static/js/787.f4de1ac9.chunk.js",
-    "index.html": "/exercise-timer-gh-pages/index.html",
-    "main.723f0e02.css.map": "/exercise-timer-gh-pages/static/css/main.723f0e02.css.map",
-    "main.70267700.js.map": "/exercise-timer-gh-pages/static/js/main.70267700.js.map",
-    "787.f4de1ac9.chunk.js.map": "/exercise-timer-gh-pages/static/js/787.f4de1ac9.chunk.js.map"
+    "main.css": "/exercise-timer/static/css/main.723f0e02.css",
+    "main.js": "/exercise-timer/static/js/main.29fb6a63.js",
+    "static/js/787.f4de1ac9.chunk.js": "/exercise-timer/static/js/787.f4de1ac9.chunk.js",
+    "index.html": "/exercise-timer/index.html",
+    "main.723f0e02.css.map": "/exercise-timer/static/css/main.723f0e02.css.map",
+    "main.29fb6a63.js.map": "/exercise-timer/static/js/main.29fb6a63.js.map",
+    "787.f4de1ac9.chunk.js.map": "/exercise-timer/static/js/787.f4de1ac9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.723f0e02.css",
-    "static/js/main.70267700.js"
+    "static/js/main.29fb6a63.js"
   ]
 }
